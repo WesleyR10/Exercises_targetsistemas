@@ -1,0 +1,17 @@
+{
+  "name": "targetsistemas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/fibonacci.js && node dist/countA.js && node dist/soma.js && node dist/sequencias.js && node dist/interruptores.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  }
+}
